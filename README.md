@@ -1,4 +1,4 @@
-A collection of Bash scripts from [TecMint.com's tutorial](http://www.tecmint.com/learning-shell-scripting-language-a-guide-from-newbies-to-system-administrator/).
+A collection of simple Bash scripts.
 
 ## Getting Started
 
@@ -11,6 +11,10 @@ A collection of Bash scripts from [TecMint.com's tutorial](http://www.tecmint.co
 1. [Encrypt.sh](https://github.com/ruanyf/simple-bash-scripts/blob/master/Encrypt.sh): encrypt a file/folder with password
 1. [up.sh](https://github.com/ruanyf/simple-bash-scripts/blob/master/up.sh): move up a directory in shell script
 1. [Randomfile.sh](https://github.com/ruanyf/simple-bash-scripts/blob/master/Randomfile.sh): create unique file/folder automatically with date and time stamp
+
+## Programming
+
+1. [VersionCompare.sh](versionCompare.sh): compare two version number
 
 ## System Administration
 
