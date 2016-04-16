@@ -6,7 +6,9 @@ A collection of simple Bash scripts.
 1. [Process.sh](scripts/Process.sh): execute more than one command in a script
 1. [Interactive.sh](scripts/Interactive.sh): a simple but very much interactive script
 1. [Special_Pattern.sh](scripts/Special_Pattern.sh): draw a diamond pattern with dots(.)
+1. [While-Read.sh](scripts/while-read.sh): read lines from a file using while loop
 1. [Read-Menu.sh](scripts/read-menu.sh): display a menu for system information
+1. [While-Menu.sh](scripts/while-menu.sh): a repeated menu for system information
 1. [Colorfull.sh](scripts/Colorfull.sh): provide you with the output of several colours
 1. [Convertlowercase.sh](scripts/convertlowercase.sh): convert data either from the file or standard input to lowercase
 1. [Encrypt.sh](scripts/Encrypt.sh): encrypt a file/folder with password
