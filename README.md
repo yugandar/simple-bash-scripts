@@ -6,6 +6,7 @@ A collection of simple Bash scripts.
 1. [Process.sh](scripts/Process.sh): execute more than one command in a script
 1. [Interactive.sh](scripts/Interactive.sh): a simple but very much interactive script
 1. [Special_Pattern.sh](scripts/Special_Pattern.sh): draw a diamond pattern with dots(.)
+1. [Read-Menu.sh](scripts/read-menu.sh): display a menu for system information
 1. [Colorfull.sh](scripts/Colorfull.sh): provide you with the output of several colours
 1. [Convertlowercase.sh](scripts/convertlowercase.sh): convert data either from the file or standard input to lowercase
 1. [Encrypt.sh](scripts/Encrypt.sh): encrypt a file/folder with password
@@ -22,7 +23,7 @@ A collection of simple Bash scripts.
 1. [Test-File.sh](scripts/test-file.sh): evaluate the status of a file/directory
 1. [Server-Health.sh](scripts/Server-Health.sh): report server related information
 1. [Disk-Space.sh](scripts/Disk-Space.sh): check if the disk space crosses the limit
-1. [Collectnetworkinfo.sh](scripts/collectnetworkinfo.sh): gather information related to server
+1. [CollectNetworkInfo.sh](scripts/collectnetworkinfo.sh): gather information related to server
 1. [RemoteBackup.sh](scripts/remoteBackup.sh): backup a local file into a remote server
 
 ## Math
