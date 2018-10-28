@@ -14,6 +14,7 @@ A collection of simple Bash scripts.
 1. [Encrypt.sh](scripts/Encrypt.sh): encrypt a file/folder with password
 1. [up.sh](scripts/up.sh): move up a directory in shell script
 1. [Randomfile.sh](scripts/Randomfile.sh): create unique file/folder automatically with date and time stamp
+1. [pomodoro.sh](scripts/pomodoro.sh): a simple pomodoro app written in bash
 
 ## Programming
 
