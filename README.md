@@ -15,6 +15,7 @@ A collection of simple Bash scripts.
 1. [up.sh](scripts/up.sh): move up a directory in shell script
 1. [Randomfile.sh](scripts/Randomfile.sh): create unique file/folder automatically with date and time stamp
 1. [weather.sh] (scripts/weather.sh): check the weather in a specified location or using the geolocation of the ip address by default.
+1. [pomodoro.sh](scripts/pomodoro.sh): a simple pomodoro app written in bash
 
 ## Programming
 
