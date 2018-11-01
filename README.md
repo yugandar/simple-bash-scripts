@@ -26,6 +26,7 @@ A collection of simple Bash scripts.
 1. [DirectorySize.sh](scripts/directorySize.sh): output a specified directory's size
 1. [Test-File.sh](scripts/test-file.sh): evaluate the status of a file/directory
 1. [Server-Health.sh](scripts/Server-Health.sh): report server related information
+1. [CPU.sh](scripts/cpu.sh): report if CPU usage exceeds the threshold
 1. [Disk-Space.sh](scripts/Disk-Space.sh): check if the disk space crosses the limit
 1. [CollectNetworkInfo.sh](scripts/collectnetworkinfo.sh): gather information related to server
 1. [RemoteBackup.sh](scripts/remoteBackup.sh): backup a local file into a remote server
