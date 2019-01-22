@@ -1,16 +1,12 @@
 #!/bin/bash
-echo "How many numbers do you want of Fibonacci series ?"
-read total
 x=0
 y=1
 i=2
-echo "Fibonacci Series up to $total terms :: "
-echo "$x"
-echo "$y"
-while [ $i -lt $total ]; do
+while true ; do
 	i=$(expr $i + 1)
 	z=$(expr $x + $y)
-	echo "$z"
+	echo -n "$z "
 	x=$y
 	y=$z
+	sleep .5
 done
