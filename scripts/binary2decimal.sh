@@ -3,6 +3,7 @@ echo "Enter a number :"
 read Binary
 if [ $Binary -eq 0 ]; then
 	echo "Enter a valid number "
+	return
 else
 	while [ $Binary -ne 0 ]; do
 		Bnumber=$Binary
