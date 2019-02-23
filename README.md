@@ -9,17 +9,24 @@ A collection of simple Bash scripts.
 1. [While-Read.sh](scripts/while-read.sh): read lines from a file using while loop
 1. [Read-Menu.sh](scripts/read-menu.sh): display a menu for system information
 1. [While-Menu.sh](scripts/while-menu.sh): a repeated menu for system information
+1. [Affect.sh](scripts/affect.sh): print a spinner loader
 1. [Colorfull.sh](scripts/color.sh): provide you with the output of several colours
 1. [Convertlowercase.sh](scripts/convertlowercase.sh): convert data either from the file or standard input to lowercase
-1. [Encrypt.sh](scripts/encrypt.sh): encrypt a file/folder with password
 1. [up.sh](scripts/up.sh): move up a directory in shell script
+1. [List-dir.sh](scripts/list-dir.sh): list files in a directory
 1. [Randomfile.sh](scripts/randomfile.sh): create unique file/folder automatically with date and time stamp
-1. [weather.sh](scripts/weather.sh): check the weather in a specified location or using the geolocation of the ip address by default.
+1. [Random-emoji.sh](scripts/random-emoji.sh): print ramdom emojis
 1. [pomodoro.sh](scripts/pomodoro.sh): a simple pomodoro app written in bash
 
 ## Programming
 
 1. [VersionCompare.sh](scripts/versioncompare.sh): compare two version number
+
+## Utility
+
+1. [Encrypt.sh](scripts/encrypt.sh): encrypt a file/folder with password
+1. [Archive-and-encrypt.sh](scripts/archive-and-encrypt.sh): archive a path into a file and encrypt the file
+1. [weather.sh](scripts/weather.sh): check the weather in a specified location or using the geolocation of the ip address by default.
 
 ## System Administration
 
@@ -46,3 +53,5 @@ A collection of simple Bash scripts.
 1. [Fibonacci.sh](scripts/fibonacci.sh): test if a number being entered is a Fibonacci or not
 1. [Decimal2Binary.sh](scripts/decimal2binary.sh): convert Decimal Number to Binary
 1. [Binary2Decimal.sh](scripts/binary2decimal.sh): convert Binary Number back to decimal
+1. [Decimal2Hex.sh](scripts/dec2hex.sh): convert Decimal Number to Hex
+1. [Hex2Decimal](scripts/hextodec.sh): convert Hex number back to Decimal
