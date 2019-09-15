@@ -27,7 +27,7 @@ A collection of simple Bash scripts.
 1. [Disk-Space.sh](scripts/Disk-Space.sh): check if the disk space crosses the limit
 1. [CollectNetworkInfo.sh](scripts/collectnetworkinfo.sh): gather information related to server
 1. [RemoteBackup.sh](scripts/remoteBackup.sh): backup a local file into a remote server
-1. [HardwareInfo.sh](script/hardware_machine.sh): show hardware information for systems Linux 
+1. [HardwareInfo.sh](scripts/hardware_machine.sh): show hardware information for systems Linux 
 
 ## Math
 
