@@ -38,6 +38,7 @@ A collection of simple Bash scripts.
 1. [CollectNetworkInfo.sh](scripts/collectnetworkinfo.sh): gather information related to server
 1. [RemoteBackup.sh](scripts/remotebackup.sh): backup a local file into a remote server
 1. [HardwareInfo.sh](scripts/hardware_machine.sh): show hardware information for systems Linux 
+1. [Get-Temperature.sh](scripts/get-temperature.sh): show CPU temperature
 
 ## Math
 
