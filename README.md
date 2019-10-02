@@ -14,6 +14,7 @@ A collection of simple Bash scripts.
 1. [Convertlowercase.sh](scripts/convertlowercase.sh): convert data either from the file or standard input to lowercase
 1. [up.sh](scripts/up.sh): move up a directory in shell script
 1. [List-dir.sh](scripts/list-dir.sh): list files in a directory
+1. [Count-lines.sh](scripts/count-lines.sh): print out the line number of each file in current directory
 1. [Randomfile.sh](scripts/randomfile.sh): create unique file/folder automatically with date and time stamp
 1. [Random-emoji.sh](scripts/random-emoji.sh): print ramdom emojis
 1. [pomodoro.sh](scripts/pomodoro.sh): a simple pomodoro app written in bash
