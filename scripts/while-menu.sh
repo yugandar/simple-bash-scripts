@@ -1,7 +1,7 @@
 #!/bin/bash
 # while-menu: a menu driven system information program
 DELAY=1 # Number of seconds to display results
-while [[ $REPLY != 0 ]]; do
+while true; do
     clear
 	cat << EOF
         Please Select:
@@ -11,17 +11,18 @@ while [[ $REPLY != 0 ]]; do
         0. Quit
 EOF
     read -p "Enter selection [0-3] > "
-    if [[ $REPLY =~ ^[0-3]$ ]]; then
-        if [[ $REPLY == 1 ]]; then
+    case "$REPLY" in
+        0)
+            break
+            ;;
+        1)
             echo "Hostname: $HOSTNAME"
             uptime
-            sleep $DELAY
-        fi
-        if [[ $REPLY == 2 ]]; then
+            ;;
+        2)
             df -h
-            sleep $DELAY
-        fi
-        if [[ $REPLY == 3 ]]; then
+            ;;
+        3)
             if [[ $(id -u) -eq 0 ]]; then
                 echo "Home Space Utilization (All Users)"
                 du -sh /home/*
@@ -29,11 +30,11 @@ EOF
                 echo "Home Space Utilization ($USER)"
                 du -sh $HOME
             fi
-            sleep $DELAY
-        fi
-    else
-        echo "Invalid entry."
-        sleep $DELAY
-    fi
+            ;;
+        *)
+            echo "Invalid entry."
+            ;;
+    esac
+    sleep "$DELAY"
 done
 echo "Program terminated."
