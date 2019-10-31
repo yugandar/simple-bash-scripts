@@ -43,3 +43,7 @@ A collection of simple Bash scripts.
 1. [Fibonacci.sh](scripts/Fibonacci.sh): test if a number being entered is a Fibonacci or not
 1. [Decimal2Binary.sh](scripts/Decimal2Binary.sh): convert Decimal Number to Binary
 1. [Binary2Decimal.sh](scripts/Binary2Decimal.sh): convert Binary Number back to decimal
+
+## Image manipulation
+
+1. [thumbnail.sh](scripts/thumbnail.sh): create 400px thumbnails from images in a folder
