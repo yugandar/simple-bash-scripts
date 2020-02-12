@@ -18,9 +18,9 @@ case $1 in
 	echo "-l [location]   --location [location]   Specifies the location"
 	;;
 -l | --location)
-	curl wttr.in/$2
+	curl https://wttr.in/$2
 	;;
 *)
-	curl wttr.in
+	curl https://wttr.in
 	;;
 esac
