@@ -1,0 +1,1 @@
+awk -F "," "{print $7}" data.log|awk -F "->" "{print $1}"|awk -F "\\" "{print $NF}"|uniq|sort >files.txt
